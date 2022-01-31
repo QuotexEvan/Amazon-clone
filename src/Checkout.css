@@ -1,0 +1,37 @@
+.checkout{
+   display: flex;
+   padding: 20px;
+   height: max-content;
+   background-color: white;
+}
+
+.checkout_list{
+  width: 100%;
+  margin-right: 17px;
+}
+
+.checkout_ad{
+   width: 100%;
+   margin-bottom: 10px;
+   
+   }
+
+.checkout_title{
+   margin-right: 10px;
+   padding: 10px 10px 0px 10px;
+   border-bottom:1px solid lightgrey ;
+   display: flex;
+   justify-content: space-between;
+}
+
+.checkout_titlePrice{
+  margin-top: 40px;
+  font-size:20px;
+}
+.checkout_titleHeading{
+   padding-bottom: 25px;
+}
+/*.checkout_total{
+   margin-left: 10px;
+   height: 100%;
+} */

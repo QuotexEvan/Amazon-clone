@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+.upperBar{
+  display: flex;
+  align-items: center;
+  height:60px;
+  background-color: #131921;
+  }
+
+.bottomBar{
+  display: flex;
+  justify-content:space-around;
+  height: 39px;
+  align-items:center;
+  background-color: #232f3e;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+
+
+}
+
+.bottomBar_extra{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width: 32%;
+  margin-left: 15px;
+
+}
+
+.bottomBar_extra > spam {
+  padding-right:10px;
+}
+.bottomBar_all{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 10px;
+  z-index: 1;
+}
+.bottomBar_all > h4{
+  margin-top: 3px;
+  margin-left:3px;
+
+}
+
+.header_logo {
+  object-fit: contain;
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 10px;
+  }
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius:40px;
+  
+}
+
+.header_searchIcon{
+  padding:4.2px; 
+  height:22pxpx;
+  background-color: #cd9052;
+}
+
+.header_searchInput{
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.navBar {
+  margin-left:10px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.navBar_Option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left:10px ;
+}
+
+.option_lineOne {
+  font-size:12px;
+}
+
+.option_lineTwo {
+  font-weight: 800;
+  font-size:15px;
+} 
+
+.navBar_Basket{
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.basketIconCount{
+  margin-left: 10px;
+  margin-right: 10px;
+}
